@@ -100,7 +100,7 @@ class MetarSensor(Entity):
             elif self.type == 'wind_speed':
                 self._state = self.weather_data.sensor_data.wind_speed.value() 
             elif self.type == 'wind_dir':
-                self._state = self.weather_data.sensor_data.wind_dir.value()
+                self._state = self.weather_data.sensor_data.wind_dir
             elif self.type == 'pressure':
                 self._state = self.weather_data.sensor_data.press.string("hpa").split(" ")[0]
             elif self.type == 'visibility':

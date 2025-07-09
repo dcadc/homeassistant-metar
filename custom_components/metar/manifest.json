@@ -1,9 +1,9 @@
 {
   "domain": "metar",
   "name": "Metar weather",
-  "version": "2021.07.1",
+  "version": "2025.07.9",
   "documentation": "https://en.wikipedia.org/wiki/METAR",
   "dependencies": [],
-  "codeowners": ["lfasci"],
+  "codeowners": ["DCADC"],
   "requirements": ["metar"]
 }
